@@ -2,7 +2,7 @@
 
 As I am a fan of Minecraft, I wanted to make my own texture pack, so, everyone get ready for **Casscraft**... my name is Cass, by the way...
 
-For the game to see this texture pack, place it in the `/texturepacks/` folder, ensuring it is zipped. If you download this on GitHub (or a mirror), you will need to extract the ZIP, go one file up so you're in `/pc-gamer-demo-main/` and re-ZIP it once more and finally place the new ZIP in the pre-mentioned `/texturepacks/` folder so it will work.
+For the game to see this texture pack, place it in the `/texturepacks/` folder, ensuring it is zipped. If you download this on GitHub (or a mirror), you will need to extract the ZIP, go one file up so you're in `/1_0/` and re-ZIP it once more and finally place the new ZIP in the pre-mentioned `/texturepacks/` folder so it will work.
 
 This pack has been made for the [1.0 Full Release](https://minecraft.fandom.com/wiki/Java_Edition_1.0.0) Java version of the game.
 
@@ -79,8 +79,14 @@ Most of the asset was made by Cass Python, but uses [`Arecibo message tiny.png`]
 
 **char.png**
 
-In this version of the game, you would have played as Steave, regardless of whether you bought a legit copy of Minecraft back in the day, so Casscraft changes the file `char.png` so that you're playing as Efe, one of the current default skins in the game - why Efe? Well, I simply like the way they look over the other default skins, simple as.
+Currently in this version of the game, it no longer connects to the Mojang server to add your own Minecraft skin, so you will play as Steave, regardless of whether you own a legit copy of Minecraft or not, so Casscraft changes the file `char.png` so that you're playing as Efe, one of the current default skins in the game - why Efe? Well, I simply like the way they look over the other default skins, simple as.
 
 If you want to replace this skin with a new one, you will need to edit this texture, replacing it with your own. Be warned, if you do use another skin, make sure it is 64 by 32 pixels and not 64 by 64 or else it will look strange in-game.
+
+It _is_ possible to make it so you play as your own skin, but like changing `char.png`, it is unofficial. Regardless, if you add the following Java arguments to your port, you should have your own normal skin, same for other players when you play on a server.
+
+```
+-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11705
+```
 
 If you want to be able to play as Steve, all you need to do is just delete this file, then re-ZIP up the Classcraft folder and you should be all good.

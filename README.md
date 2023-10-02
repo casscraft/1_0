@@ -4,7 +4,7 @@ As I am a fan of Minecraft, I wanted to make my own texture pack, so, everyone g
 
 For the game to see this texture pack, place it in the `/texturepacks/` folder, ensuring it is zipped. If you download this on GitHub (or a mirror), you will need to extract the ZIP, go one file up so you're in `/1_0/` and re-ZIP it once more and finally place the new ZIP in the pre-mentioned `/texturepacks/` folder so it will work.
 
-This pack has been made for the [1.0 Full Release](https://minecraft.fandom.com/wiki/Java_Edition_1.0.0) Java version of the game.
+This pack has been made for the [1.0 Full Release](https://minecraft.wiki/w/Java_Edition_1.0.0) Java version of the game.
 
 ## 1.0 Full Release
 
@@ -63,7 +63,7 @@ This pack is [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 
 The cake textures were taken from this project, as well as the bricks.
 
-**[Minecraft Earth](https://minecraft.fandom.com/wiki/Minecraft_Earth)**
+**[Minecraft Earth](https://minecraft.wiki/w/Minecraft_Earth)**
 
 The cow texture (`cow.png`) was taken from Minecraft Earth - it was edited so that it once again has the PC Gamer logo on. As well as this, the `pig.png` was also taken from the same game, also being edited so that the nose appears on the model.
 
